@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  kujira:
+    build: 
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - 26657:26657 
+   
